@@ -92,7 +92,7 @@ public class Grid{
         }
         return true;
     }    
-    // return string grid replacing "0" to "." and "1" to "#". 
+    // return string grid replacing "0" to "." and "1" to "#" 
     public string bestVisualizeGrid(){
         string final = "";
         for(int i=0; i < this.getGridArray().GetLength(0);i++){
