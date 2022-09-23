@@ -56,8 +56,8 @@ public class Grid{
 
     // Modify the grid grouping elements 
     public void ceilAutomata(int count){        
-        int[,] grid_temp = (int[,]) this.gridArray.Clone();    // corrigir para clonar                    
-        for(int i=0; i<count;i++){
+        for(int i=0; i<count;i++){            
+        int[,] grid_temp = (int[,]) this.gridArray.Clone();       
             for(int x=0; x < this.getGridArray().GetLength(0);x++){
                 for(int y=0; y < this.getGridArray().GetLength(1);y++){
                     int wall_count = 0;

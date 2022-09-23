@@ -4,19 +4,11 @@ class Program
     {
         static void Main(string[] args)
         { 
-            Grid grid = new Grid(30,50,60);
+            Grid grid = new Grid(50,50,60);
             System.Console.Write(grid.bestVisualizeGrid() + "\n");
-            grid.ceilAutomata(1);            
-            System.Console.Write(grid.bestVisualizeGrid());
-            grid.ceilAutomata(1);            
+            grid.ceilAutomata(6);   
             System.Console.Write(grid.bestVisualizeGrid() + "\n");
-            grid.ceilAutomata(1);            
-            System.Console.Write(grid.bestVisualizeGrid() + "\n");
-            grid.ceilAutomata(1);            
-            System.Console.Write(grid.bestVisualizeGrid() + "\n");
-            grid.ceilAutomata(1);            
-            System.Console.Write(grid.bestVisualizeGrid() + "\n");
-            grid.ceilAutomata(1);            
-            System.Console.Write(grid.bestVisualizeGrid() + "\n");
+            
+
         }
 }
